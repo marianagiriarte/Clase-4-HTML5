@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Clase 4 HTML5</title>
+</head>
+<body> 
+<form action="https://formspree.io/marianagiriarte@gmail.com" method="POST">
+    <fieldset>
+        <legend> Datos Personales</legend>
+        <label for="nombre">Nombre y Apellido</label>
+        <input type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre y apellido">
+        <hr>
+        <label for="Email">E-mail</label>
+        <input type="email" name="email" id="email" placeholder="Ingrese su email">
+        <hr>
+        <label for="password">Contraseña</label>
+        <input type="password" name="password" id="password" placeholder="Ingrese su clave">
+        <hr>
+    </fieldset>
+    <br>
+    <fieldset>
+        <legend> Datos de contacto</legend>
+        <label for="Pais">Pais de origen</label>
+        <select name="Pais" id="Pais">
+        <option>Argentina</option>
+        <option>Chile</option>
+        <option>Uruguay</option>
+        <option>Brasil</option>
+    </fieldset>
+        <br>
+        <br>
+
+    <label for="sexo">Sexo</label>
+        <input type="radio" name="sexo" value="hombre" checked="checked"/>Hombre
+        <input type="radio" name="sexo" value="mujer"/>Mujer
+        <br>
+        <br>
+        <label for="comentarios">Comentarios</label>
+        <br>
+        <textarea name="comentarios" id="comentarios" rows="5" cols="60"></textarea>
+        <hr>
+        <input type="checkbox">
+        <hr>
+        <input type="range">
+        <hr>
+        <input type="date">
+        <hr>
+        <input type="hour">
+</form>
+</body>
+</html>

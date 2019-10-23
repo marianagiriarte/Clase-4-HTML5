@@ -1,3 +1,7 @@
+body{background-color: palevioletred;}
+
+legend{font-weight: bold;}
+
 input{
     border-top-style: none;
     border-left-style: none;
